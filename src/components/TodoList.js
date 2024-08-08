@@ -4,7 +4,6 @@ import "../styles/modules/TodoList.css";
 import { Mycontext } from "../Hooks/Store/Context.js";
 
 function TodoList() {
-  
   const { todos } = useContext(Mycontext);
 
   return (

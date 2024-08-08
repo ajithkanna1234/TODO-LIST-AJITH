@@ -10,7 +10,6 @@ function Login() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-
     login(username, password);
   };
 

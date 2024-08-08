@@ -83,7 +83,6 @@ function MyContextProvider({ children }) {
 
   const logout = () => {
     setUser(null);
-    // setTodos([]);
     localStorage.removeItem("user");
   };
 

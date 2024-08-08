@@ -4,7 +4,6 @@ import ClearTodo from "./ClearTodo.js";
 import "../styles/modules/Footer.css";
 
 function Footer() {
-  
   const { todos } = useContext(Mycontext);
 
   return (

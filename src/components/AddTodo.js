@@ -3,7 +3,6 @@ import { Mycontext } from "../Hooks/Store/Context.js";
 import "../styles/modules/AddTodo.css";
 
 function AddTodo() {
-  
   const { todos, setTodos, newTodo, setNewTodo } = useContext(Mycontext);
 
   const addTodo = () => {
