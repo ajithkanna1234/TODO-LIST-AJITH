@@ -83,13 +83,13 @@
 ## Installation
 
 **Clone the repository:** 
-    - git clone https://github.com/yourusername/todo-app.git
+- git clone https://github.com/yourusername/todo-app.git
 **Navigate to the project directory:** 
-    - cd todo-app
+- cd todo-app
 **Install dependencies:**
-    - npm install
+- npm install
 **Start the development server:**
-    - npm start    
+- npm start    
 
 ## Usage
 
