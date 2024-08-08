@@ -79,3 +79,40 @@
 ## Context and State Management
 
 - **MyContext (in Context.js):** This context provides global state for the application, including functions for authentication (`login`, `logout`, `register`) and managing todos (`todos`, `setTodos`). Components can access this context using the `useContext` hook.
+
+## Installation
+
+**Clone the repository:** 
+
+- git clone https://github.com/yourusername/todo-app.git
+
+**Navigate to the project directory:** 
+
+- cd todo-app
+
+**Install dependencies:**
+
+- npm install
+
+**Start the development server:**
+
+- npm start    
+
+## Usage
+
+Register: Create an account with a unique username and password.
+Login: Log in with your credentials to access your todos.
+Manage Todos: Add, mark as completed, delete, or clear all completed todos.
+Logout: Log out to end your session. Your data is saved and will be available when you log back in.
+
+## Contributing
+Feel free to fork this repository and submit pull requests if you have suggestions or improvements.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Acknowledgements
+React
+Context API
+localStorage
+
